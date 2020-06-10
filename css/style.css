@@ -5,12 +5,23 @@
 	background-repeat: no-repeat;
 }
 
+index-nav {
+	margin-bottom: none;
+}
+
 .navlogo {
 	padding-left: 10px;
 }
 
 .navbar-brand {
 	font-family: Colus, serif;
+}
+
+#about-nav,
+#learn-nav,
+#contact-nav {
+	background-color: rgb(20, 20, 20);
+	margin-bottom: 15px;
 }
 
 #des {
@@ -52,8 +63,9 @@
 	display: none;
 }
 
-nav.navbar {
-	background-color: rgba(0, 0, 0, 0.2);
+#index-nav {
+	background-color: rgba(20, 20, 20, 0.3);
+	margin-bottom: 15px;
 }
 
 
@@ -64,8 +76,23 @@ footer {
 	padding-top: 100px;
 	padding-bottom: 30px;
 	color: white;
-	background-color: black;
+	/* background-color: black; */
+}
+
+#index-footer {
 	background-image: linear-gradient(to right, black, #110511);
+}
+
+#contact-footer {
+	background-color: rgb(20, 20, 20);
+}
+
+#learn-footer {
+	background-color: rgb(20, 20, 20);
+}
+
+#about-footer {
+	background-color: rgb(20, 20, 20);
 }
 
 .footp {
@@ -90,6 +117,7 @@ footer {
 	text-decoration: none;
 	margin: 2px 2px;
 }
+
 
 .fa-google {
 
