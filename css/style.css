@@ -1,16 +1,17 @@
-#maindiv{
+#maindiv {
 	background: url("../images/home1.jpg");
 	height: 500px;
-	background-size:  100% 500px;
+	background-size: 100% 500px;
 	background-repeat: no-repeat;
-	
+
 
 }
-#des{
+
+#des {
 	float: right;
 }
 
-#main2{
+#main2 {
 	padding-top: 50px;
 	text-align: center;
 	padding-right: 200px;
@@ -18,4 +19,8 @@
 	color: white;
 	font-size: 30px;
 
+}
+
+nav.navbar {
+	background-color: rgba(0, 0, 0, .2);
 }
