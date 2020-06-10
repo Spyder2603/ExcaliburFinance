@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #maindiv{
 	background: url("../images/home.jpg");
 	height: 500px;
@@ -9,4 +10,8 @@
 .ft{
 	align-items: center;
 
+=======
+#maindiv {
+	background: url(../images/home.jpg);
+>>>>>>> 23df10d7ac58ef3f815a3f3e9cf46dd6dad84710
 }
