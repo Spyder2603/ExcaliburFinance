@@ -1,5 +1,5 @@
 #maindiv{
-	background: url("../images/home.jpg");
+	background: url("../images/home1.jpg");
 	height: 500px;
 	background-size:  100% 500px;
 	background-repeat: no-repeat;
@@ -11,6 +11,7 @@
 }
 
 #main2{
+	padding-top: 50px;
 	text-align: center;
 	padding-right: 200px;
 	padding-left: 200px;
