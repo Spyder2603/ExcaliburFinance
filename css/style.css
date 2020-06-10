@@ -1,3 +1,12 @@
 #maindiv{
-	background-image: url(images/home.jpg);
+	background: url("../images/home.jpg");
+	height: 500px;
+	background-size:  100% 500px;
+	background-repeat: no-repeat;
+	
+
+}
+.ft{
+	align-items: center;
+
 }
