@@ -6,7 +6,10 @@
 	
 
 }
-.ft{
-	align-items: center;
+#des{
+	float: right;
+}
 
+#main2{
+	text-align: center;
 }
