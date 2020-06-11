@@ -75,6 +75,7 @@ footer {
 	text-align: center;
 	padding-top: 100px;
 	padding-bottom: 30px;
+	margin-top: 20px;
 	color: white;
 	/* background-color: black; */
 }
@@ -118,21 +119,10 @@ footer {
 	margin: 2px 2px;
 }
 
+.fa-instagram,
+.fa-telegram,
+.fa-twitter,
+.fa-whatsapp {
 
-.fa-google {
-
-	color: white;
-}
-
-.fa-instagram {
-
-	color: white;
-}
-
-.fa-linkedin {
-	color: white;
-}
-
-.fa-skype {
 	color: white;
 }
