@@ -343,7 +343,7 @@ a {
 @media (min-width: 768px) and (max-width: 991px) {}
 
 /************Small Devices**************************/
-@media (min-width: 400px) and (max-width: 767px) {
+@media (min-width: 450px) and (max-width: 767px) {
 
 	#main2 {
 		width: 80%;
@@ -394,7 +394,7 @@ a {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 449px) {
 	.navlogo {
 		padding-left: 0;
 		padding-right: 0;
@@ -409,5 +409,9 @@ a {
 		text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 2px white;
 		font-size: 15px;
 
+	}
+
+	#ltd {
+		display: none;
 	}
 }
