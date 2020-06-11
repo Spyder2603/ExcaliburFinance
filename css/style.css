@@ -345,6 +345,17 @@ a {
 /************Small Devices**************************/
 @media (min-width: 400px) and (max-width: 767px) {
 
+	#main2 {
+		width: 80%;
+		padding-top: 100px;
+		padding-left: 30px;
+		text-align: left;
+		color: white;
+		text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 2px white;
+		font-size: 15px;
+
+	}
+
 	/************contact*********/
 	.cmain {
 		padding-top: 20px;
@@ -387,5 +398,16 @@ a {
 	.navlogo {
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	#main2 {
+		width: 80%;
+		padding-top: 100px;
+		padding-left: 30px;
+		text-align: left;
+		color: white;
+		text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 2px white;
+		font-size: 15px;
+
 	}
 }
