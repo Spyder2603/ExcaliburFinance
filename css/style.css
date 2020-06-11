@@ -340,7 +340,18 @@ a {
 @media(min-width: 992px) {}
 
 /*************Medium Devices*************************/
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+	#main2 {
+		width: 50%;
+		padding-top: 100px;
+		padding-left: 30px;
+		text-align: left;
+		color: white;
+		text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 2px white;
+		font-size: 15px;
+
+	}
+}
 
 /************Small Devices**************************/
 @media (min-width: 450px) and (max-width: 767px) {
@@ -372,9 +383,9 @@ a {
 	}
 
 	/***********footer***********/
-	footer {
+	/* footer {
 		padding-top: 50px;
-	}
+	} */
 
 	/*******************header navbar*********/
 	.navlogo {
