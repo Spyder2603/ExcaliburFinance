@@ -414,4 +414,20 @@ a {
 	#ltd {
 		display: none;
 	}
+
+	.cmain {
+		padding-top: 20px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	.chead {
+		font-size: 30px;
+	}
+
+	.cbut {
+
+		letter-spacing: 0.5px;
+		border-radius: 25px;
+	}
 }
