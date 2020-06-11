@@ -5,7 +5,10 @@
 	background-repeat: no-repeat;
 	margin-top: 70px;
 }
-
+.imgh{
+		width: 50px;
+		height: 50px;
+	}
 #index-nav {
 	margin-bottom: none;
 }
@@ -67,15 +70,15 @@ footer {
 }
 
 #contact-footer {
-	background-color: black;
+	background-color: rgb(15, 15, 15);
 }
 
 #learn-footer {
-	background-color: rgb(20, 20, 20);
+	background-color: rgb(15, 15, 15);
 }
 
 #about-footer {
-	background-color: rgb(20, 20, 20);
+	background-color: rgb(15, 15, 15);
 }
 
 .footp {
@@ -113,7 +116,7 @@ footer {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	padding-right: 175px;
-	background-color: black;
+	background-color: rgb(15, 15, 15);;
 	color: white;
 
 	padding-left: 75px;
@@ -138,11 +141,10 @@ footer {
 .cmain2{
 	font-size: 20px;
 }
-/*************************/
 
 
-
-.wrapper{
+/************Form*************/
+/*.wrapper{
 	background: black;
 
 }
@@ -200,4 +202,50 @@ footer {
 	text-align: center;
 	padding-left: 75px;
 	padding-right: 50%;
+}
+
+
+*/
+
+/****************Responsive**************************/
+
+/*************Large Devices**************************/
+@media(min-width: 992px){
+
+
+}
+
+/*************Medium Devices*************************/
+@media (min-width: 768px) and (max-width: 991px) {
+	}
+
+/************Small Devices**************************/
+@media (max-width: 767px){
+
+	/************contact*********/
+	.cmain{
+	padding-top: 20px;
+	padding-right:  25px;
+	padding-left: 25px;
+}
+.chead{
+	font-size: 30px;
+}
+/***********footer***********/
+footer {
+	padding-top: 50px;
+}
+/*******************header navbar*********/
+.navlogo {
+	padding-left: 20px;
+}
+.imgh{
+		width: 30px;
+		height: 30px;
+	}
+.cbut{
+  
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+}
 }
