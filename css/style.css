@@ -23,7 +23,7 @@
 #contact-nav,
 #index-nav {
 	background-color: rgb(20, 20, 20);
-	margin-bottom: 15px;
+	/*margin-bottom: 15px;*/
 }
 
 #des {
@@ -52,25 +52,12 @@
 
 }
 
-#myBtn {
-	margin-top: 5px;
-	opacity: 90%;
-	border-radius: 5px;
-	text-shadow: none;
-	text-decoration: none;
-	box-shadow: none;
-}
-
-#more {
-	display: none;
-}
-
 footer {
 	text-shadow: 1px 1px 2px black, 0 0 2px black, 0 0 2px white;
 	text-align: center;
 	padding-top: 100px;
 	padding-bottom: 30px;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	color: white;
 	/* background-color: black; */
 }
@@ -80,7 +67,7 @@ footer {
 }
 
 #contact-footer {
-	background-color: rgb(20, 20, 20);
+	background-color: black;
 }
 
 #learn-footer {
@@ -120,4 +107,97 @@ footer {
 .fa-whatsapp {
 
 	color: white;
+}
+/********************Contact**********************/
+.cmain{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 175px;
+	background-color: black;
+	color: white;
+
+	padding-left: 75px;
+}
+.chead{
+	font-size: 50px;
+	color: white;
+}
+.cbut{
+  border: 0px;
+  margin-top: 0px;
+  padding: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  width: auto;
+  background: white;
+  color: black;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.cmain2{
+	font-size: 20px;
+}
+/*************************/
+
+
+
+.wrapper{
+	background: black;
+
+}
+
+.wrapper h2{
+  text-align: left;
+  margin-bottom: 20px;
+  padding-left: 75px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.wrapper .input_field{
+  margin-bottom: 15px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 100px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: white;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+.maininp{
+	
+	text-align: center;
+	padding-left: 75px;
+	padding-right: 50%;
 }
