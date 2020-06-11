@@ -1,3 +1,8 @@
+body {
+	box-sizing: bordpadding;
+}
+
+
 #maindiv {
 	background: url("../images/home.jpg");
 	height: 610px;
@@ -5,10 +10,12 @@
 	background-repeat: no-repeat;
 	margin-top: 70px;
 }
-.imgh{
-		width: 50px;
-		height: 50px;
-	}
+
+.imgh {
+	width: 50px;
+	height: 50px;
+}
+
 #index-nav {
 	margin-bottom: none;
 }
@@ -111,66 +118,83 @@ footer {
 
 	color: white;
 }
+
 /********************Contact**********************/
-.cmain{
+.cmain {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	padding-right: 175px;
-	background-color: rgb(15, 15, 15);;
+	background-color: rgb(15, 15, 15);
+	;
 	color: white;
 
 	padding-left: 75px;
 }
-.chead{
+
+.chead {
 	font-size: 50px;
 	color: white;
 }
-.cbut{
-  border: 0px;
-  margin-top: 0px;
-  padding: 5px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-align: center;
-  width: auto;
-  background: white;
-  color: black;
-  border-radius: 25px;
-  cursor: pointer;
+
+.cbut {
+	border: 0px;
+	margin-top: 0px;
+	padding: 5px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+	width: auto;
+	background: white;
+	color: black;
+	border-radius: 25px;
+	cursor: pointer;
 }
-.cmain2{
+
+.cmain2 {
 	font-size: 20px;
 }
- 
+
 /*************Learn************/
-#butL:hover, a:hover {
-  opacity: 0.7;
+.butL:hover,
+a:hover {
+	opacity: 0.7;
 }
-#butL {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: black;
-  background-color: #666;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+
+.butL {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: black;
+	background-color: #666;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
 }
+
 .cardL {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 500px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  color: black;
-  background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 500px;
+	/* margin: auto; */
+	text-align: center;
+	font-family: arial;
+	color: black;
+	background-color: white;
 }
-#Learn-body{
+
+#Learn-body {
 	background-color: rgba(15, 15, 15);
 }
-*/
+
+.pdf {
+	padding-top: 30px;
+}
+
+.row {
+	margin: 10px;
+}
+
 /************Form*************/
 /*.wrapper{
 	background: black;
@@ -236,113 +260,135 @@ footer {
 */
 
 /*about*/
-#butA:hover, a:hover {
-  opacity: 0.7;
+#butA:hover,
+a:hover {
+	opacity: 0.7;
 }
+
 #butA {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: black;
-  background-color: #666;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: black;
+	background-color: #666;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
 }
+
+.abtcard {
+	padding-top: 30px;
+
+}
+
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
 }
 
 .title {
-  color: grey;
-  font-size: 15px;
+	color: grey;
+	font-size: 15px;
 }
+
 a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
-.abtimg{
+
+.abtimg {
 	width: 100%;
 }
-.iconsabt{
+
+.iconsabt {
 	padding-bottom: 5px;
 
 }
-.abtname{
+
+.abtname {
 	font-size: 25px;
 	padding-top: 2px;
 }
-.icc{
+
+.icc {
 	color: black;
 	font-size: 20px;
 }
-.abthead{
+
+.abthead {
 	padding: 20px;
 	font-size: 40px;
 	text-align: center;
 	color: white;
 }
-#about-body{
-	background-color: rgba(15,15,15);
+
+#about-body {
+	background-color: rgba(15, 15, 15);
 }
-.abtp{
+
+.abtp {
 	color: white;
 	padding-left: 50px;
 	padding-right: 50px;
 }
+
 /****************Responsive**************************/
 
 /*************Large Devices**************************/
-@media(min-width: 992px){
-
-
-}
+@media(min-width: 992px) {}
 
 /*************Medium Devices*************************/
-@media (min-width: 768px) and (max-width: 991px) {
-	.container{
-		column-count:2;
-}
-	}
+@media (min-width: 768px) and (max-width: 991px) {}
 
 /************Small Devices**************************/
-@media (max-width: 767px){
+@media (min-width: 400px) and (max-width: 767px) {
 
 	/************contact*********/
-	.cmain{
-	padding-top: 20px;
-	padding-right:  25px;
-	padding-left: 25px;
-}
-.chead{
-	font-size: 30px;
-}
-/***********footer***********/
-footer {
-	padding-top: 50px;
-}
-/*******************header navbar*********/
-.navlogo {
-	padding-left: 20px;
-}
-.imgh{
+	.cmain {
+		padding-top: 20px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	.chead {
+		font-size: 30px;
+	}
+
+	.abthead {
+		font-size: 30px;
+	}
+
+	/***********footer***********/
+	footer {
+		padding-top: 50px;
+	}
+
+	/*******************header navbar*********/
+	.navlogo {
+		padding-left: 20px;
+	}
+
+	/* .imgh {
 		width: 30px;
 		height: 30px;
+	} */
+
+	.cbut {
+
+		letter-spacing: 0.5px;
+		border-radius: 25px;
 	}
-.cbut{
-  
-  letter-spacing: 0.5px;
-  border-radius: 25px;
-}
-.container{
-		column-count:1;
 
 }
-}
 
+@media (max-width: 400px) {
+	.navlogo {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
