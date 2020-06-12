@@ -98,8 +98,18 @@ footer {
 	font-style: italic;
 }
 
-.fab:hover {
+.fab:hover,
+.fas:hover {
 	opacity: 0.7;
+}
+
+.fas {
+	padding: 10px;
+	font-size: 20px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px 2px;
 }
 
 .fab {
@@ -117,6 +127,10 @@ footer {
 .fa-whatsapp {
 
 	color: white;
+}
+
+.fa-rss {
+	color: black;
 }
 
 /********************Contact**********************/
