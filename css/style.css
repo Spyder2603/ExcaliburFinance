@@ -1,12 +1,13 @@
 body {
 	box-sizing: bordpadding;
+	background-color: rgba(15, 15, 15);
 }
 
 
 #maindiv {
 	background: url("../images/home.jpg");
-	height: 610px;
-	background-size: 100% 610px;
+	height: 700px;
+	background-size: 100% 700px;
 	background-repeat: no-repeat;
 }
 
@@ -23,14 +24,12 @@ body {
 	padding-left: 10px;
 }
 
-.navbar-brand {
+a.navbar-brand {
 	font-family: Colus, serif;
+	color: rgb(3, 183, 254);
 }
 
-#about-nav,
-#learn-nav,
-#contact-nav,
-#index-nav {
+#nav {
 	background-color: rgb(20, 20, 20);
 	/*margin-bottom: 15px;*/
 }
@@ -44,18 +43,35 @@ body {
 
 .heading1 {
 	text-align: center;
-	font-size: 25px;
+	color: rgb(3, 183, 254);
+	font-size: 30px;
 }
 
 #main2 {
 	width: 40%;
-	padding-top: 100px;
+	padding-top: 200px;
 	padding-left: 100px;
 	text-align: left;
 	color: white;
 	text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 2px white;
 	font-size: 15px;
 
+}
+
+.butn {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: rgb(3, 183, 254);
+	background-color: rgb(8, 44, 99);
+	/* box-shadow: 1px 1px 1px white; */
+	text-align: center;
+	cursor: pointer;
+	width: auto;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top: 10px;
 }
 
 footer {
@@ -65,24 +81,12 @@ footer {
 	padding-bottom: 30px;
 	/*margin-top: 20px;*/
 	color: white;
+	background-color: rgb(20, 20, 20);
+
 	/* background-color: black; */
 }
 
-#index-footer {
-	background-image: linear-gradient(to right, black, #110511);
-}
 
-#contact-footer {
-	background-color: rgb(15, 15, 15);
-}
-
-#learn-footer {
-	background-color: rgb(15, 15, 15);
-}
-
-#about-footer {
-	background-color: rgb(15, 15, 15);
-}
 
 .footp {
 	font-size: 10px;
@@ -129,24 +133,38 @@ footer {
 
 .chead {
 	font-size: 50px;
-	color: white;
+	color: rgb(3, 183, 254);
 }
 
 .cbut {
 	border: 0px;
 	margin-top: 0px;
 	padding: 5px;
-	font-weight: bold;
+	font-family: sans-serif;
+	/* font-weight: bold; */
 	letter-spacing: 2px;
 	text-align: center;
 	width: auto;
-	background: white;
-	color: black;
+	background: rgb(8, 44, 99);
+	text-decoration: rgb(3, 183, 254);
 	border-radius: 25px;
 	cursor: pointer;
 }
 
+.fa-envelope {
+	padding-left: 5px;
+}
+
+.fa-phone-alt {
+	padding-left: 5px;
+}
+
+.white {
+	color: rgb(255, 255, 255);
+}
+
 .cmain2 {
+	color: rgb(3, 183, 254);
 	font-size: 20px;
 }
 
@@ -156,19 +174,28 @@ a:hover {
 	opacity: 0.5;
 }
 
+#Lsrc {
+	color: rgb(3, 183, 254);
+}
+
 .butL {
 	border: none;
 	outline: 0;
 	display: inline-block;
 	padding: 8px;
-	color: white;
-	background-color: black;
+	color: rgb(3, 183, 254);
+	background-color: rgb(8, 44, 99);
 	text-align: center;
 	cursor: pointer;
-	width: 20%;
+	width: auto;
 	font-size: 18px;
 	border-radius: 10px;
 	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.pdftxt {
+	padding-left: 10px;
 }
 
 .cardL {
@@ -177,12 +204,9 @@ a:hover {
 	background-color: #333;
 	padding: 1%;
 	padding-left: 5px;
+	border-radius: 5px;
 }
 
-#Learn-body {
-	background-color: black;
-
-}
 
 .pdf {
 	padding-top: 30px;
@@ -193,13 +217,15 @@ a:hover {
 	padding-right: 12%;
 	padding-left: 12%;
 }
-.lhead{
+
+.lhead {
 	text-align: center;
 	color: white;
 	padding-top: 1%;
 	padding-right: 2%;
 	padding-left: 2%;
 }
+
 /************Form*************/
 /*.wrapper{
 	background: black;
@@ -329,11 +355,7 @@ a {
 	padding: 20px;
 	font-size: 40px;
 	text-align: center;
-	color: white;
-}
-
-#about-body {
-	background-color: rgba(15, 15, 15);
+	color: rgb(3, 183, 254);
 }
 
 .abtp {
@@ -345,19 +367,35 @@ a {
 /****************Responsive**************************/
 
 /*************Large Devices**************************/
-@media(min-width: 992px) {}
+@media(min-width: 992px) {
+	#mobile-div {
+		display: none;
+	}
+}
 
 /*************Medium Devices*************************/
 @media (min-width: 768px) and (max-width: 991px) {
+
+	#maindiv {
+		background: url(../images/home_laptop_sm.jpg) no-repeat;
+		background-size: 100% 640px;
+		height: 640px;
+		padding-top: 0px;
+	}
+
 	#main2 {
-		width: 50%;
-		padding-top: 100px;
+		width: 40%;
+		padding-top: 130px;
 		padding-left: 30px;
 		text-align: left;
 		color: white;
 		text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 2px white;
 		font-size: 15px;
 
+	}
+
+	#mobile-div {
+		display: none;
 	}
 }
 
@@ -366,13 +404,25 @@ a {
 
 	#main2 {
 		width: 80%;
-		padding-top: 100px;
+		padding-top: 80px;
 		padding-left: 30px;
 		text-align: left;
 		color: white;
 		text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 2px white;
 		font-size: 15px;
 
+	}
+
+
+	#maindiv {
+		background: url(../images/hometab.jpg) no-repeat;
+		background-size: 100% 280px;
+		height: 280px;
+		padding-top: 0px;
+	}
+
+	#main2 {
+		display: none;
 	}
 
 	/************contact*********/
@@ -411,6 +461,14 @@ a {
 		border-radius: 25px;
 	}
 
+	#mobile-div {
+		background-color: rgb(15, 15, 15);
+		color: white;
+		padding-top: 20px;
+		padding-left: 10px;
+		height: 300px;
+		text-align: center;
+	}
 }
 
 @media (max-width: 449px) {
@@ -428,6 +486,26 @@ a {
 		text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 2px white;
 		font-size: 15px;
 
+	}
+
+	#mobile-div {
+		background-color: rgb(15, 15, 15);
+		color: white;
+		padding-top: 20px;
+		padding-left: 10px;
+		height: 300px;
+		text-align: center;
+	}
+
+	#main2 {
+		display: none;
+	}
+
+	#maindiv {
+		background: url(../images/homemob.jpg) no-repeat;
+		background-size: 100% 249px;
+		height: 249px;
+		padding-top: 0px;
 	}
 
 	#ltd {
