@@ -34,6 +34,10 @@ a.navbar-brand {
 	/*margin-bottom: 15px;*/
 }
 
+navbar-toggler {
+
+	float: right;
+}
 
 @font-face {
 	font-family: Colus;
@@ -196,7 +200,8 @@ a:hover {
 	border: none;
 	outline: 0;
 	display: inline-block;
-	padding: 8px;
+	padding-top: 0px;
+	padding-right: 18px;
 	color: rgb(3, 183, 254);
 	background-color: rgb(8, 44, 99);
 	text-align: center;
