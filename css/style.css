@@ -8,7 +8,6 @@ body {
 	height: 610px;
 	background-size: 100% 610px;
 	background-repeat: no-repeat;
-	margin-top: 70px;
 }
 
 .imgh {
@@ -154,7 +153,7 @@ footer {
 /*************Learn************/
 .butL:hover,
 a:hover {
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 .butL {
@@ -162,26 +161,27 @@ a:hover {
 	outline: 0;
 	display: inline-block;
 	padding: 8px;
-	color: black;
-	background-color: #666;
+	color: white;
+	background-color: black;
 	text-align: center;
 	cursor: pointer;
-	width: 100%;
+	width: 20%;
 	font-size: 18px;
+	border-radius: 10px;
+	margin-top: 10px;
 }
 
 .cardL {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	max-width: 500px;
-	/* margin: auto; */
-	text-align: center;
 	font-family: arial;
-	color: black;
-	background-color: white;
+	color: white;
+	background-color: #333;
+	padding: 1%;
+	padding-left: 5px;
 }
 
 #Learn-body {
-	background-color: rgba(15, 15, 15);
+	background-color: black;
+
 }
 
 .pdf {
@@ -190,8 +190,16 @@ a:hover {
 
 .row {
 	margin: 10px;
+	padding-right: 12%;
+	padding-left: 12%;
 }
-
+.lhead{
+	text-align: center;
+	color: white;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
 /************Form*************/
 /*.wrapper{
 	background: black;
