@@ -133,7 +133,8 @@ footer .fab {
 	padding: 5px;
 	color: rgb(3, 183, 254);
 	background-color: rgb(8, 44, 99);
-	/* box-shadow: 1px 1px 1px white; */
+	box-shadow: -5px -5px 12px rgba(255, 255, 255, 0.07),
+		5px 5px 12px rgba(0, 0, 0, 0.2);
 	text-align: center;
 	cursor: pointer;
 	width: auto;
@@ -232,6 +233,10 @@ footer .fab {
 
 /********************************* Learn *************************/
 
+#learn-main {
+	margin-bottom: 50px;
+}
+
 .butL:hover,
 a:hover {
 	opacity: 0.5;
@@ -251,23 +256,23 @@ a:hover {
 	border-radius: 5px;
 	margin-top: 10px;
 	margin-left: 10px;
+	box-shadow: -5px -5px 12px rgba(255, 255, 255, 0.08),
+		5px 5px 12px rgba(0, 0, 0, 0.2);
 }
 
 .pdftxt {
 	padding-left: 10px;
 }
 
-.cardL {
+.pdf {
 	font-family: arial;
 	color: white;
-	background-color: #333;
+	background-color: #222;
 	padding: 1%;
-	padding-left: 5px;
 	border-radius: 5px;
-}
-
-.pdf {
-	padding-top: 30px;
+	margin-bottom: 30px;
+	box-shadow: -5px -5px 12px rgba(255, 255, 255, 0.08),
+		5px 5px 12px rgba(0, 0, 0, 0.1);
 }
 
 .row {
