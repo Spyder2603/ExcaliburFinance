@@ -1,3 +1,5 @@
+/************************************ Disclaimer ************************************/
+
 .swal-overlay {
 	background-color: rgba(0, 0, 0, 0.9);
 }
@@ -18,17 +20,19 @@
 	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
 }
 
-body {
-	box-sizing: bordpadding;
-	background-color: rgba(15, 15, 15);
+/***************************** Font for Company name ********************************/
+@font-face {
+	font-family: Colus;
+	src: url(../fonts/Colus-Regular.ttf);
 }
 
+/*************************** Navbar *************************/
+#nav {
+	background-color: rgb(20, 20, 20);
+}
 
-#maindiv {
-	background: url("../images/home.jpg");
-	height: 700px;
-	background-size: 100% 700px;
-	background-repeat: no-repeat;
+.navlogo {
+	padding-left: 10px;
 }
 
 .imgh {
@@ -36,34 +40,78 @@ body {
 	height: 50px;
 }
 
-#index-nav {
-	margin-bottom: none;
-}
-
-.navlogo {
-	padding-left: 10px;
-}
-
 a.navbar-brand {
 	font-family: Colus, serif;
 	color: rgb(3, 183, 254);
 }
 
-#nav {
-	background-color: rgb(20, 20, 20);
-	/*margin-bottom: 15px;*/
-}
-
-navbar-toggler {
-
+.navbar-toggler {
 	float: right;
 }
 
-@font-face {
-	font-family: Colus;
-	src: url(../fonts/Colus-Regular.ttf);
+/*************************** Body *****************************/
+body {
+	box-sizing: bordpadding;
+	background-color: rgba(15, 15, 15);
 }
 
+.head {
+	font-size: 45px;
+	text-align: center;
+	color: rgb(3, 183, 254);
+}
+
+/************************* footer ******************************/
+footer {
+	text-shadow: 1px 1px 2px black, 0 0 2px black, 0 0 2px white;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	color: white;
+	background-color: rgb(20, 20, 20);
+}
+
+
+.footp {
+	font-size: 10px;
+	padding-top: 20px;
+	line-height: 0.5px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.fab:hover {
+	opacity: 0.7;
+}
+
+
+
+footer .fab {
+	padding: 10px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px 2px;
+}
+
+.fa-instagram,
+.fa-telegram,
+.fa-twitter,
+.fa-whatsapp {
+
+	color: rgb(3, 183, 254);
+}
+
+/************************* index.html styling ***********************/
+#maindiv {
+	background: url("../images/home.jpg");
+	height: 700px;
+	background-size: 100% 700px;
+	background-repeat: no-repeat;
+}
 
 .heading1 {
 	text-align: center;
@@ -86,7 +134,7 @@ navbar-toggler {
 	border: none;
 	outline: 0;
 	display: inline-block;
-	padding: 8px;
+	padding: 5px;
 	color: rgb(3, 183, 254);
 	background-color: rgb(8, 44, 99);
 	/* box-shadow: 1px 1px 1px white; */
@@ -99,95 +147,13 @@ navbar-toggler {
 	margin-bottom: 30px;
 }
 
-footer {
-	text-shadow: 1px 1px 2px black, 0 0 2px black, 0 0 2px white;
-	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 30px;
-	/*margin-top: 20px;*/
-	color: white;
-	background-color: rgb(20, 20, 20);
-
-	/* background-color: black; */
-}
-
-
-
-.footp {
-	font-size: 10px;
-	padding-top: 20px;
-	line-height: 0.5px;
-}
-
-.it {
-	font-style: italic;
-}
-
-.fab:hover,
-.fas:hover {
-	opacity: 0.7;
-}
-
-.fas {
-	padding: 10px;
-	font-size: 20px;
-	width: 30px;
-	text-align: center;
-	text-decoration: none;
-	margin: 2px 2px;
-}
-
-.fab {
-	padding: 10px;
-	font-size: 30px;
-	width: 30px;
-	text-align: center;
-	text-decoration: none;
-	margin: 2px 2px;
-}
-
-.fa-instagram,
-.fa-telegram,
-.fa-twitter,
-.fa-whatsapp {
-
-	color: white;
-}
-
-.fa-rss {
-	color: black;
-}
-
-/********************Contact**********************/
+/************************************* Contact **************************************/
 .cmain {
 	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-right: 175px;
-	background-color: rgb(15, 15, 15);
-	;
-	color: white;
-
-	padding-left: 75px;
-}
-
-.chead {
-	font-size: 50px;
-	color: rgb(3, 183, 254);
-}
-
-.cbut {
-	border: 0px;
-	margin-top: 0px;
-	padding: 5px;
-	font-family: sans-serif;
-	/* font-weight: bold; */
-	letter-spacing: 2px;
 	text-align: center;
-	width: auto;
-	background: rgb(8, 44, 99);
-	text-decoration: rgb(3, 183, 254);
-	border-radius: 25px;
-	cursor: pointer;
+	padding-bottom: 50px;
+	background-color: rgb(15, 15, 15);
+	color: white;
 }
 
 .fa-envelope {
@@ -198,73 +164,10 @@ footer {
 	padding-left: 5px;
 }
 
-.white {
-	color: rgb(255, 255, 255);
-}
-
-.cmain2 {
+.subhead {
+	text-align: center;
 	color: rgb(3, 183, 254);
 	font-size: 20px;
-}
-
-/*************Learn************/
-.butL:hover,
-a:hover {
-	opacity: 0.5;
-}
-
-#Lsrc {
-	font-size: 50px;
-	color: rgb(3, 183, 254);
-}
-
-.butL {
-	border: none;
-	outline: 0;
-	display: inline-block;
-	padding-top: 0px;
-	padding-right: 18px;
-	color: rgb(3, 183, 254);
-	background-color: rgb(8, 44, 99);
-	text-align: center;
-	cursor: pointer;
-	width: auto;
-	font-size: 18px;
-	border-radius: 10px;
-	margin-top: 10px;
-	margin-left: 10px;
-}
-
-.pdftxt {
-	padding-left: 10px;
-}
-
-.cardL {
-	font-family: arial;
-	color: white;
-	background-color: #333;
-	padding: 1%;
-	padding-left: 5px;
-	border-radius: 5px;
-}
-
-
-.pdf {
-	padding-top: 30px;
-}
-
-.row {
-	margin: 10px;
-	padding-right: 12%;
-	padding-left: 12%;
-}
-
-.lhead {
-	text-align: center;
-	color: white;
-	padding-top: 1%;
-	padding-right: 2%;
-	padding-left: 2%;
 }
 
 /************Form*************/
@@ -331,7 +234,54 @@ a:hover {
 
 */
 
-/*about*/
+/********************************* Learn *************************/
+
+.butL:hover,
+a:hover {
+	opacity: 0.5;
+}
+
+.butL {
+	border: none;
+	outline: 0;
+	padding-top: 0px;
+	padding-right: 18px;
+	color: rgb(3, 183, 254);
+	background-color: rgb(8, 44, 99);
+	text-align: center;
+	cursor: pointer;
+	width: auto;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.pdftxt {
+	padding-left: 10px;
+}
+
+.cardL {
+	font-family: arial;
+	color: white;
+	background-color: #333;
+	padding: 1%;
+	padding-left: 5px;
+	border-radius: 5px;
+}
+
+.pdf {
+	padding-top: 30px;
+}
+
+.row {
+	margin: 10px;
+	padding-right: 12%;
+	padding-left: 12%;
+}
+
+
+/*********************************** About ****************************/
 
 .abtcard {
 	padding-top: 30px;
@@ -378,17 +328,14 @@ a {
 	font-size: 20px;
 }
 
-.abthead {
-	padding: 20px;
-	font-size: 40px;
-	text-align: center;
-	color: rgb(3, 183, 254);
-}
-
-.abtp {
+.para {
 	color: white;
 	padding-left: 50px;
 	padding-right: 50px;
+}
+
+.fa-rss {
+	color: black;
 }
 
 /****************Responsive**************************/
@@ -429,18 +376,17 @@ a {
 /************Small Devices**************************/
 @media (min-width: 450px) and (max-width: 767px) {
 
-	#main2 {
-		width: 80%;
-		padding-top: 80px;
-		padding-left: 30px;
-		text-align: left;
-		color: white;
-		text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 2px white;
-		font-size: 15px;
-
+	/******************* Navbar ******************/
+	.navlogo {
+		padding-left: 20px;
 	}
 
+	.imgh {
+		width: 45px;
+		height: 45px;
+	}
 
+	/*************** Home ***************/
 	#maindiv {
 		background: url(../images/hometab.jpg) no-repeat;
 		background-size: 100% 280px;
@@ -452,42 +398,6 @@ a {
 		display: none;
 	}
 
-	/************contact*********/
-	.cmain {
-		padding-top: 20px;
-		padding-right: 25px;
-		padding-left: 25px;
-	}
-
-	.chead {
-		font-size: 30px;
-	}
-
-	.abthead {
-		font-size: 30px;
-	}
-
-	/***********footer***********/
-	/* footer {
-		padding-top: 50px;
-	} */
-
-	/*******************header navbar*********/
-	.navlogo {
-		padding-left: 20px;
-	}
-
-	.imgh {
-		width: 45px;
-		height: 45px;
-	}
-
-	.cbut {
-
-		letter-spacing: 0.5px;
-		border-radius: 25px;
-	}
-
 	#mobile-div {
 		background-color: rgb(15, 15, 15);
 		color: white;
@@ -496,6 +406,18 @@ a {
 		height: auto;
 		text-align: center;
 	}
+
+	/**************** Contact *************/
+	.cmain {
+		padding-top: 20px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	.head {
+		font-size: 30px;
+	}
+
 }
 
 @media (max-width: 449px) {
@@ -545,13 +467,8 @@ a {
 		padding-left: 25px;
 	}
 
-	.chead {
+	.head {
 		font-size: 30px;
 	}
 
-	.cbut {
-
-		letter-spacing: 0.5px;
-		border-radius: 25px;
-	}
 }
