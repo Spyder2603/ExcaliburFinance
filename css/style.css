@@ -117,7 +117,7 @@ footer .fab {
 
 #main2 {
 	width: 40%;
-	padding-top: 200px;
+	padding-top: 100px;
 	padding-left: 100px;
 	text-align: left;
 	color: white;
@@ -131,7 +131,7 @@ footer .fab {
 	outline: 0;
 	display: inline-block;
 	padding: 5px;
-	color: rgb(3, 183, 254);
+	color: rgb(255, 255, 255);
 	background-color: rgb(8, 44, 99);
 	box-shadow: -5px -5px 12px rgba(255, 255, 255, 0.07),
 		5px 5px 12px rgba(0, 0, 0, 0.2);
@@ -247,12 +247,12 @@ a:hover {
 	outline: 0;
 	padding-top: 0px;
 	padding-right: 18px;
-	color: rgb(3, 183, 254);
+	color: rgb(255, 255, 255);
 	background-color: rgb(8, 44, 99);
 	text-align: center;
 	cursor: pointer;
 	width: auto;
-	font-size: 18px;
+	font-size: 16px;
 	border-radius: 5px;
 	margin-top: 10px;
 	margin-left: 10px;
@@ -284,59 +284,73 @@ a:hover {
 
 /*********************************** About ****************************/
 
-.abtcard {
-	padding-top: 30px;
-
-}
-
-.card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	max-width: 300px;
-	margin: auto;
-	border-radius: 10px;
-	text-align: center;
-	font-family: arial;
-	border: none;
-}
-
-.title {
-	color: grey;
-	font-size: 15px;
-}
-
-a {
-	text-decoration: none;
-	color: black;
-}
-
-.abtimg {
-	width: 100%;
-	border-radius: 10px;
-}
-
-.iconsabt {
-	padding-bottom: 5px;
-
-}
-
-.abtname {
-	font-size: 25px;
-	padding-top: 2px;
-}
-
-.icc {
-	color: black;
-	font-size: 20px;
-}
-
 .para {
 	color: white;
 	padding-left: 50px;
 	padding-right: 50px;
 }
 
-.fa-rss {
-	color: black;
+.card {
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 10px;
+	font-family: arial;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.01);
+	box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.1),
+		-3px -3px 8px rgba(255, 255, 255, 0.1);
+}
+
+.image-div {
+	align-self: center;
+	margin-left: 10px;
+}
+
+.card>.row {
+	margin: 0px;
+	padding: 0px;
+}
+
+.card-title {
+	margin-top: 10px;
+	margin-left: 10px;
+	color: rgb(3, 183, 254);
+}
+
+.abt-img {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.iconsabt {
+	margin: -5px;
+	display: inline;
+
+}
+
+.abt-info {
+	margin-left: 10px;
+	font-size: 14px;
+	padding-right: 0px;
+	color: rgb(255, 255, 255);
+}
+
+.icc {
+	color: rgb(3, 183, 254);
+	font-size: 20px;
+}
+
+section.email-id {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.email-id {
+	margin-left: 10px;
+	font-size: 12px;
+	color: rgb(255, 255, 255);
+	margin-right: 30px;
+	margin-bottom: 10px;
 }
 
 /****************Responsive**************************/
@@ -360,7 +374,7 @@ a {
 
 	#main2 {
 		width: 40%;
-		padding-top: 130px;
+		padding-top: 100px;
 		padding-left: 30px;
 		text-align: left;
 		color: white;
@@ -425,6 +439,45 @@ a {
 		font-size: 40px;
 	}
 
+	/**************** About ***************/
+
+	.card {
+		margin: auto;
+		margin-top: 30px;
+		border-radius: 10px;
+		font-family: arial;
+		border: none;
+		background-color: rgba(0, 0, 0, 0.01);
+		box-shadow: none;
+	}
+
+	.card>.row {
+		display: flexbox;
+		justify-content: center;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.image-div {
+		justify-self: center;
+	}
+
+	.abt-img {
+		width: 200px;
+		border-radius: 50%;
+		box-shadow: 5px 5px 8px rgba(255, 255, 255, 0.1),
+			-5px -5px 8px rgba(255, 255, 255, 0.1);
+	}
+
+	.card-title {
+		text-align: center;
+		color: rgb(3, 183, 254);
+	}
+
+	.abt-bottom {
+		text-align: center;
+	}
+
 }
 
 /*************************** Mobile Version ***************************/
@@ -478,6 +531,49 @@ a {
 		padding-top: 20px;
 		padding-right: 25px;
 		padding-left: 25px;
+	}
+
+	/**************** About **************/
+
+	.card {
+		margin: auto;
+		margin-top: 30px;
+		border-radius: 10px;
+		font-family: arial;
+		border: none;
+		background-color: rgba(0, 0, 0, 0.01);
+		box-shadow: none;
+	}
+
+	.card>.row {
+		display: flexbox;
+		justify-content: center;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.image-div {
+		justify-self: center;
+	}
+
+	.abt-img {
+		width: 200px;
+		border-radius: 50%;
+		box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.1),
+			-3px -3px 8px rgba(255, 255, 255, 0.1);
+	}
+
+	.card-title {
+		text-align: center;
+		color: rgb(3, 183, 254);
+	}
+
+	.abt-info {
+		text-align: center;
+	}
+
+	.iconsabt {
+		text-align: center;
 	}
 
 }
