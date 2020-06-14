@@ -7,13 +7,6 @@
 .swal-modal {
 	background-color: rgba(222, 222, 222, 0.8);
 }
-.sweet-alert {
-    box-sizing : border-box;
-    max-height : 100% !important;
-    overflow-y : auto !important;
-    padding : 0 17px 17px !important;
-    width : 512px;
-}
 
 
 /***************************** Font for Company name ********************************/
@@ -371,14 +364,16 @@ section.email-id {
 		font-weight: bold;
 		font-size: 30px;
 	}
-	.butn{
-			font-size: 18px;
+
+	.butn {
+		font-size: 18px;
 	}
-	   .swal-modal{
-        width: 80%;
-        height: 500px;
-        overflow-y: auto;
-   }
+
+	.swal-modal {
+		width: 80%;
+		height: 500px;
+		overflow-y: auto;
+	}
 
 }
 
@@ -413,14 +408,16 @@ section.email-id {
 		font-weight: bold;
 		font-size: 30px;
 	}
-	.butn{
-			font-size: 18px;
+
+	.butn {
+		font-size: 18px;
 	}
-	   .swal-modal{
-        width: 80%;
-        height: 500px;
-        overflow-y: auto;
-   }
+
+	.swal-modal {
+		width: 80%;
+		height: 500px;
+		overflow-y: auto;
+	}
 
 }
 
@@ -470,8 +467,9 @@ section.email-id {
 		font-weight: bold;
 		font-size: 30px;
 	}
-	.butn{
-			font-size: 18px;
+
+	.butn {
+		font-size: 18px;
 	}
 
 	/**************** Contact *************/
@@ -523,11 +521,12 @@ section.email-id {
 	.abt-bottom {
 		text-align: center;
 	}
-	   .swal-modal{
-        width: 80%;
-        height: 500px;
-        overflow-y: auto;
-   }
+
+	.swal-modal {
+		width: 80%;
+		height: 500px;
+		overflow-y: auto;
+	}
 
 
 }
@@ -550,8 +549,9 @@ section.email-id {
 	.head {
 		font-size: 30px;
 	}
-	.butn{
-			font-size: 13px;
+
+	.butn {
+		font-size: 13px;
 	}
 
 	/************** Home *****************/
@@ -594,7 +594,7 @@ section.email-id {
 		padding-right: 25px;
 		padding-left: 25px;
 	}
-    
+
 	/**************** About **************/
 
 	.card {
@@ -637,9 +637,14 @@ section.email-id {
 	.iconsabt {
 		text-align: center;
 	}
-   .swal-modal{
-        width: 80%;
-        height: 500px;
-        overflow-y: auto;
-   }
+
+	.abt-bottom {
+		text-align: center;
+	}
+
+	.swal-modal {
+		width: 80%;
+		height: 500px;
+		overflow-y: auto;
+	}
 }
