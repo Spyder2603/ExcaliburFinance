@@ -235,9 +235,16 @@ footer .fab {
 	margin-bottom: 50px;
 }
 
-.butL:hover,
+
 a:hover {
 	opacity: 0.5;
+	color: rgb(30, 30, 30);
+}
+
+.butL:hover {
+	opacity: 1;
+	/* background-color: rgba(58, 58, 58, 1); */
+
 }
 
 .butL {
@@ -245,7 +252,7 @@ a:hover {
 	outline: 0;
 	padding-top: 0px;
 	padding-right: 18px;
-	color: rgb(100, 100, 100);
+	color: rgb(41, 41, 41);
 	background-color: rgb(200, 200, 200);
 	text-align: center;
 	cursor: pointer;
